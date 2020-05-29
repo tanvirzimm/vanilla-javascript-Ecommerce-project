@@ -7,3 +7,142 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+img{
+    width:100%;
+}
+
+.navbar-brand{
+    color:rgb(25, 116, 29) !important;
+    font-weight: 600;
+}
+
+.nav-item i{
+    color:rgb(10, 149, 52);
+    font-size: 30px;
+}
+
+
+.cart{
+    background-color: rgb(236, 234, 243);
+    box-shadow: 3px 3px 10px gray;
+    width: 80%;
+    min-height: 200px;
+    margin:100px auto;
+    border-radius: 5px;
+    border-top:10px solid rgb(39, 167, 45);
+    padding-bottom: 50px;
+}
+
+
+.cart-item-header{
+    
+    width:80%;
+    margin:10px auto;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(83, 83, 83);
+    color:white;
+    
+
+}
+
+.cart-item-header h4{
+    width:20%;
+    font-size: 15px;
+    word-wrap: break-word;
+    text-align: center;
+    
+
+}
+
+
+
+
+
+.cart-item{
+    background-color: #FFFFFF;
+    width:80%;
+    margin:10px auto;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.cart-item h4{
+    width:20%;
+    font-size: 15px;
+    word-wrap: break-word;
+    text-align: center;
+    
+
+}
+
+
+.cart-item h4 .cancel{
+    color:red;
+    cursor: pointer;
+}
+
+/* .cart-item .name{
+    fle
+    padding:10px;
+}
+
+.cart-item .price{
+    flex:1;
+    padding:10px;
+}
+
+.cart-item .quantity{
+    flex:1;
+    padding:10px;
+}
+
+.cart-item .total{
+    flex:1;
+    padding:10px;
+}
+
+.cart-item .cancel{
+    flex:1;
+    padding:10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.item{
+    text-align: center;
+    box-shadow: 3px 3px 10px gray;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+
+.item h3{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+
+.item button{
+    border: none;
+    outline: none;
+    background-color: rgb(39, 167, 45);
+    color:white;
+    padding:5px;
+    border-radius:5px;
+    font-size: 15px;
+}
+
